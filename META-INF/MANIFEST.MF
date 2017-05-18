@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Home Awareness
+Bundle-SymbolicName: org.openhab.binding.homeawareness
+Bundle-Version: 1.0.0
+Bundle-Activator: org.openhab.binding.homeawareness.internal.HomeAwarenessActivator
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.openhab.core.binding,
+ org.openhab.core.events,
+ org.openhab.core.items,
+ org.openhab.core.library.types,
+ org.openhab.core.types,
+ org.openhab.model.item.binding,
+ org.slf4j;version="1.6.1"
+Service-Component: OSGI-INF/binding.xml
